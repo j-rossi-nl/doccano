@@ -165,7 +165,7 @@ body {
 }
 
 .content .text-sequence {
-  white-space: nowrap;
+  white-space: pre-wrap;
   font-family: monospace;
   font-size: 14pt;
   height: auto;
