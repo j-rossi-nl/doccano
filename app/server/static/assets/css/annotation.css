@@ -166,7 +166,7 @@ body {
 
 .content .text-sequence {
   white-space: nowrap;
-  font-family: Consolas, "Operator Mono", sans-serif;
+  font-family: monospace;
   font-size: 14pt;
   height: auto;
 }
