@@ -165,7 +165,9 @@ body {
 }
 
 .content .text-sequence {
-/*  white-space: pre-wrap; /* Not render newlines for sequence labelling */
+  white-space: nowrap;
+  font-family: Consolas, "Operator Mono", sans-serif;
+  font-size: 14pt;
   height: auto;
 }
 
