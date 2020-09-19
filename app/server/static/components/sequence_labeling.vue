@@ -36,6 +36,7 @@ block annotation-area
 <style scoped>
 .card-header-title {
   padding: 1.5rem;
+  font-family: Consolas, "Operator Mono", sans-serif;
 }
 </style>
 
