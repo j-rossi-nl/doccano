@@ -30,6 +30,8 @@
           <v-col>
             <approve-button
               v-if="canViewApproveButton"
+              v-model="page"
+              :length="total"
               :approved="approved"
               :disabled="currentDoc ? false : true"
             />
@@ -165,7 +167,7 @@ export default {
       // To validate the range of page variable on reloading the annotation page.
       if (this.total !== 0 && this.page > this.total) {
         this.$router.push({
-          path: `/projects/${this.$route.params.id}/`
+          path: this.localePath(`/projects/${this.$route.params.id}/`)
         })
       }
     },
