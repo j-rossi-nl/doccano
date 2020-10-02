@@ -159,7 +159,7 @@ body {
 }
 
 .content .text {
-  font-family: Consolas, "Operator Mono", sans-serif;
+  font-family: monospace;
   font-size: 14pt;
   white-space: pre-wrap; /* Rendering newlines for classification and seq2seq tasks */
 }
